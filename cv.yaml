@@ -1,0 +1,434 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Luca Domeniconi
+  headline: AI Researcher graduated in Artificial Intelligence at the University of Bologna
+  location: Rimini, Italy
+  email: luca24ever@gmail.com
+  photo: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW42ejdlbWxsazU3OGR1cDRwZnpud3BoY2hvZXBxajliZXNnZDI3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mcsPU3SkKrYDdW3aAU/giphy.gif
+  phone:
+  website: https://liuktc.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: '[LinknedIn](https://www.linkedin.com/in/lucadomeniconi01/)'
+    - network: GitHub
+      username: '[GitHub](https://github.com/liuktc)'
+  custom_connections:
+  sections:
+    # Welcome to RenderCV:
+    #   - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
+    #   - Each section title is arbitrary.
+    #   - You can choose any of the 9 entry types for each section.
+    #   - Markdown syntax is supported everywhere. This is **bold**, *italic*, and [link](https://example.com).
+    education:
+      - institution: University of Bologna
+        area: Artificial Intelligence
+        degree: M.Sc.
+        date:
+        start_date: 2023-09
+        end_date: 2026-03
+        location: Bologna, Italy
+        summary:
+        highlights:
+          - 'Thesis: *Using Sparse Features to Characterize and Mitigate Concept-Dependent Modality Gap in Vision-Language Models*'
+          - 'Grade: 110/110 *with honors*'
+          # - 'Advisor: Prof. Sanjeev Arora'
+          # - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+      - institution: University of Bologna
+        area: Computer Engineering
+        degree: B.Sc.
+        date:
+        start_date: 2020-09
+        end_date: 2023-10
+        location: Bologna, Italy
+        summary:
+        highlights:
+          # - 'Thesis: '
+          - 'Grade: 109/110'
+    experience:
+      - company: EPFL
+        position: Research Intern (Master's Thesis)
+        start_date: 2025-10
+        end_date: 2026-03
+        location: Lausanne, Switzerland
+        summary:
+        highlights:
+          - "Conducted research on interpretability and vision-language models for my Master's thesis project in IDIAP Lab, under the supervision of Prof. Andrea Cavallaro"
+
+      - company: Belluzzi Fioravanti High School
+        position: Computer Science Teacher
+        start_date: 2024-01
+        end_date: 2024-02
+        location: Bologna, Italy
+        summary:
+        highlights:
+          - "Taught students about computer architecture and networking using sockets" 
+
+      - company: Gruppo Finmatica
+        position: Software Engineer Intern
+        date:
+        start_date: 2023-03
+        end_date: 2023-06
+        location: Bologna, Italy
+        summary:
+        highlights:
+          - "Deployment of a web based collaborative document editor and development of a React Native prototype for barcode scanning to assist warehouse personnel in inventory management"
+      - company: ""
+        position: "*Private Tutor*"
+        date:
+        start_date: 2019
+        end_date: 2025
+        location: Rimini, Italy
+        summary:
+        highlights:
+          - "Private computer science and mathematics lessons for undergratuate and high school students"
+
+      # - company: Nexus AI
+      #   position: Co-Founder & CTO
+      #   date:
+      #   start_date: 2023-06
+      #   end_date: present
+      #   location: San Francisco, CA
+      #   summary:
+      #   highlights:
+      #     - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
+      #     - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
+      #     - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
+      #     - Developed proprietary inference optimization reducing latency by 73% compared to baseline
+      # - company: NVIDIA Research
+      #   position: Research Intern
+      #   date:
+      #   start_date: 2022-05
+      #   end_date: 2022-08
+      #   location: Santa Clara, CA
+      #   summary:
+      #   highlights:
+      #     - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
+      #     - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)
+      # - company: Google DeepMind
+      #   position: Research Intern
+      #   date:
+      #   start_date: 2021-05
+      #   end_date: 2021-08
+      #   location: London, UK
+      #   summary:
+      #   highlights:
+      #     - Developed reinforcement learning algorithms for multi-agent coordination
+      #     - Published research at top-tier venues with significant academic impact
+      #       - ICML 2022 main conference paper, cited 340+ times within two years
+      #       - NeurIPS 2022 workshop paper on emergent communication protocols
+      #       - Invited journal extension in JMLR (2023)
+      # - company: Apple ML Research
+      #   position: Research Intern
+      #   date:
+      #   start_date: 2020-05
+      #   end_date: 2020-08
+      #   location: Cupertino, CA
+      #   summary:
+      #   highlights:
+      #     - Created on-device neural network compression pipeline deployed across 50M+ devices
+      #     - Filed 2 patents on efficient model quantization techniques for edge inference
+      # - company: Microsoft Research
+      #   position: Research Intern
+      #   date:
+      #   start_date: 2019-05
+      #   end_date: 2019-08
+      #   location: Redmond, WA
+      #   summary:
+      #   highlights:
+      #     - Implemented novel self-supervised learning framework for low-resource language modeling
+      #     - Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
+    publications:
+      - title: 'How to Evaluate and Refine your CAM'
+        authors:
+          - '*Luca Domeniconi*'
+          - Alessandra Stramiglio
+          - Michele Lombardi
+          - Samuele Salti
+        summary:
+        doi: 10.1234/neurips.2023.1234
+        url:
+        journal: ICPR 2026
+        date: 2026-04
+    projects:
+      - name: "[ICD Multimodal Diagnosis](https://github.com/liuktc/multimodal-icd-diagnosis)"
+        # date: 2026
+        summary: "Implemented a Tree-constrained multimodal ICD-9 generation pipelinefrom chest X-rays and clinical text using custom made VLMs"
+      - name: "[Semantic Segmentation of Unexpected Objects on Roads](https://github.com/liuktc/ML4CV_Assignment)"
+        # date: 2025
+        summary: "Implemented an open-world semantic segmentation model using a pre-trained DINOv3 plus metric learning to segment known classes while detecting anomalous regions."
+      - name: "[Multiple Couriers Optimization](https://github.com/liuktc/couriers-optimization)"
+        summary: "Constraint programming solution to optimize the routes of multiple couriers delivering packages, written in MiniZinc and Z3."
+      - name: "[Shelves Product Detection](https://github.com/liuktc/opencv-instance-detection)"
+        summary: "Instance detection of products on shelves using only classical computer vision techniques with OpenCV"
+      - name: "[TheCatIsOnTheTablut](https://github.com/liuktc/tablut-player)"
+        summary: "Agent playing Tablut (old table game) using A* search algorithm with a custom genetic heuristic, written in Python and highly optimized using Cython."
+      # - name: '[FlashInfer](https://github.com/)'
+      #   date:
+      #   start_date: 2023-01
+      #   end_date: present
+      #   location:
+      #   summary: Open-source library for high-performance LLM inference kernels
+      #   highlights:
+      #     - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
+      #     - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+      # - name: '[NeuralPrune](https://github.com/)'
+      #   date: '2021'
+      #   start_date:
+      #   end_date:
+      #   location:
+      #   summary: Automated neural network pruning toolkit with differentiable masks
+      #   highlights:
+      #     - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
+      #     - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
+
+      # - title: Neural Architecture Search via Differentiable Pruning
+      #   authors:
+      #     - James Liu
+      #     - '*John Doe*'
+      #   summary:
+      #   doi: 10.1234/neurips.2022.5678
+      #   url:
+      #   journal: NeurIPS 2022, Spotlight
+      #   date: 2022-12
+      # - title: Multi-Agent Reinforcement Learning with Emergent Communication
+      #   authors:
+      #     - Maria Garcia
+      #     - '*John Doe*'
+      #     - Tom Anderson
+      #   summary:
+      #   doi: 10.1234/icml.2022.9012
+      #   url:
+      #   journal: ICML 2022
+      #   date: 2022-07
+      # - title: On-Device Model Compression via Learned Quantization
+      #   authors:
+      #     - '*John Doe*'
+      #     - Kevin Wu
+      #   summary:
+      #   doi: 10.1234/iclr.2021.3456
+      #   url:
+      #   journal: ICLR 2021, Best Paper Award
+      #   date: 2021-05
+    # selected_honors:
+    #   - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
+    #   - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
+    #   - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
+    #   - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
+    #   - bullet: Fulbright Scholarship for Graduate Studies (2018)
+#     \begin{rubric}{Skills}
+# \entry*[Computer Vision]
+#     Python, PyTorch, OpenCV
+# \entry*[Machine Learning]
+#     Keras, numpy, pandas, scikit-learn, Matplotlib.
+# \entry*[Web and Mobile Development]
+#     JavaScript, NodeJS, React, React Native, Android Native. 
+# \entry*[Programming Languages and Tools]
+# 	Java, C, C\texttt{\#}, \LaTeX, SQL, MATLAB, Minizinc, Unity 3D, Docker, Blender.
+# \end{rubric}
+
+    skills:
+      - label: Computer Vision
+        details: Python, OpenCV, PyTorch
+      - label: Machine Learning
+        details: Keras, numpy, pandas, scikit-learn, Matplotlib
+      - label: Web and Mobile Development
+        details: JavaScript, NodeJS, React, React Native, Android Native
+      - label: Programming Languages and Tools
+        details: Java, C, C#, \LaTeX, SQL, MATLAB, Minizinc, Unity 3D, Docker, Blender
+      - label: Research Areas
+        details: Explainability, Attribution Mehthods, Vision-Language Models
+    # patents:
+    #   - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
+    #   - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
+    #   - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
+    # invited_talks:
+    #   - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
+    #   - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
+    #   - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
+    #   - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
+design:
+  theme: harvard
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   degree_width: 1cm
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # phrases:
+  #   degree_with_area: DEGREE in AREA
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: NAME - CV
