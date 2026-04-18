@@ -44,6 +44,18 @@ cv:
         highlights:
           # - 'Thesis: '
           - 'Grade: 109/110'
+    publications:
+      - title: 'How to Evaluate and Refine your CAM'
+        authors:
+          - '*Luca Domeniconi*'
+          - Alessandra Stramiglio
+          - Michele Lombardi
+          - Samuele Salti
+        summary:
+        doi: 10.1234/neurips.2023.1234
+        url:
+        journal: ICPR 2026
+        date: 2026-04
     experience:
       - company: EPFL
         position: Research Intern (Master's Thesis)
@@ -137,18 +149,7 @@ cv:
       #   highlights:
       #     - Implemented novel self-supervised learning framework for low-resource language modeling
       #     - Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
-    publications:
-      - title: 'How to Evaluate and Refine your CAM'
-        authors:
-          - '*Luca Domeniconi*'
-          - Alessandra Stramiglio
-          - Michele Lombardi
-          - Samuele Salti
-        summary:
-        doi: 10.1234/neurips.2023.1234
-        url:
-        journal: ICPR 2026
-        date: 2026-04
+    
     projects:
       - name: "[ICD Multimodal Diagnosis](https://github.com/liuktc/multimodal-icd-diagnosis)"
         # date: 2026
@@ -247,7 +248,7 @@ cv:
     #   - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
     #   - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
 design:
-  theme: harvard
+  theme: classic
   # page:
   #   size: us-letter
   #   top_margin: 0.7in
