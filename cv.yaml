@@ -4,7 +4,7 @@ cv:
   headline: AI Researcher graduated in Artificial Intelligence at the University of Bologna
   # location: Rimini, Italy
   email: luca24ever@gmail.com
-  photo: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW42ejdlbWxsazU3OGR1cDRwZnpud3BoY2hvZXBxajliZXNnZDI3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mcsPU3SkKrYDdW3aAU/giphy.gif
+  photo: pro_pic_2.png
   phone:
   website: https://liuktc.github.io/
   social_networks:
@@ -54,18 +54,18 @@ cv:
         start_date: 2025-10
         end_date: 2026-03
         location: Lausanne, Switzerland
-        summary:
+        summary: "Conducted research on interpretability and vision-language models for my Master's thesis project in MINTS Lab, under the supervision of Prof. Andrea Cavallaro."
         highlights:
-          - "Conducted research on interpretability and vision-language models for my Master's thesis project in IDIAP Lab, under the supervision of Prof. Andrea Cavallaro"
+          - "Studied the semantical structure of the modality gap inside CLIP's embedding space"
+          - "Proposed to use Sparse Autoencoders to better characterize the modality gap"
 
       - company: Belluzzi Fioravanti High School
         position: Computer Science Teacher
         start_date: 2024-01
         end_date: 2024-02
         location: Bologna, Italy
-        summary:
+        summary: "Taught students about computer architecture and networking using sockets"
         highlights:
-          - "Taught students about computer architecture and networking using sockets"
 
       - company: Gruppo Finmatica
         position: Software Engineer Intern
@@ -73,18 +73,17 @@ cv:
         start_date: 2023-03
         end_date: 2023-06
         location: Bologna, Italy
-        summary:
+        summary: "Deployment of a web based collaborative document editor and development of a React Native prototype for barcode scanning to assist warehouse personnel in inventory management"
         highlights:
-          - "Deployment of a web based collaborative document editor and development of a React Native prototype for barcode scanning to assist warehouse personnel in inventory management"
+
       - company: ""
         position: "*Private Tutor*"
         date:
         start_date: 2019
         end_date: 2025
         location: Rimini, Italy
-        summary:
+        summary: "Private computer science and mathematics lessons for undergratuate and high school students"
         highlights:
-          - "Private computer science and mathematics lessons for undergratuate and high school students"
 
     achievements:
       - name: "[1st Place at EPFL LauzHack 2024, BMS Challenge](https://github.com/francesco-gramegna/lauehack2024team)"
