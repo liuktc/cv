@@ -1,0 +1,103 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{setspace}
+\usepackage{pdfpages}
+
+% Compatibility: some LaTeX setups pass an `artifact` key to \includegraphics
+% (e.g., when including external PDFs). If the key isn't defined, compilation fails.
+\makeatletter
+\@ifundefined{KV@Gin@artifact}{\define@key{Gin}{artifact}[]{}}{}
+\makeatother
+
+\definecolor{unibo_red}{HTML}{990000}
+
+\renewcommand{\arraystretch}{1.35} % increases row spacing
+
+\begin{document}
+
+\begin{center}
+    {\huge \textbf{Academic Record Summary}}\\[2mm]
+    {\large MSc in Artificial Intelligence}\\
+    \textit{University of Bologna, Italy}
+\end{center}
+
+\vspace{8mm}
+
+\section*{Student Information}
+
+\begin{tabular}{>{\bfseries}p{4cm} p{10cm}}
+Name: & Luca Domeniconi \\
+Degree: & Laurea Magistrale in Artificial Intelligence (LM-32) \\
+Graduation Date: & March 26, 2026 \\
+Final Grade: & 110/110 cum Laude \\
+Weighted Average: & 29.33/30 \\
+\end{tabular}
+
+\vspace{8mm}
+
+\section*{Examinations and Academic Activities}
+
+\begin{tabularx}{\textwidth}{
+    >{\raggedright\arraybackslash}X
+    >{\centering\arraybackslash}p{2cm}
+    >{\centering\arraybackslash}p{2cm}
+}
+\toprule
+\textbf{Course / Activity} & \textbf{Grade} & \textbf{ECTS} \\
+\midrule
+
+Artificial Intelligence in Industry & 30L & 6 \\
+
+Big Data Analytics and Text Mining & 30 & 6 \\
+
+Cognition and Neuroscience & 29 & 6 \\
+
+Combinatorial Decision Making and Optimization & 30L & 6 \\
+
+Ethics in Artificial Intelligence & 28 & 6 \\
+
+Fundamentals of Artificial Intelligence and Knowledge Representation & 30L & 12 \\
+
+Image Processing and Computer Vision & 26 & 6 \\
+
+Languages and Algorithms for Artificial Intelligence & 30 & 12 \\
+
+Machine Learning and Deep Learning & 29 & 12 \\
+
+Machine Learning for Computer Vision & 30 & 6 \\
+
+Natural Language Processing & 30L & 6 \\
+
+Statistical and Mathematical Methods for Artificial Intelligence & 29 & 6 \\
+
+Project Work in Artificial Intelligence in Industry & ID & 3 \\
+
+Project Work in Machine Learning for Computer Vision & ID & 3 \\
+
+Preparation for the Final Examination Abroad (Master Thesis) & ID & 18 \\
+
+\bottomrule
+\end{tabularx}
+
+\vspace{5mm}
+
+\noindent
+\textit{Legend: 30L = 30 cum Laude (highest distinction); ID = Pass.}
+
+\vfill
+
+\begin{center}
+\footnotesize
+This page is a concise English summary of the official academic certification issued by the University of Bologna, which is attached on the following page.
+\end{center}
+
+\newpage
+\includepdf[pages={-}]{autocertificazione-4.pdf}
+
+\end{document}
