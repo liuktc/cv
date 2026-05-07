@@ -44,10 +44,10 @@ cv:
           - Michele Lombardi
           - Samuele Salti
         summary:
-        doi: 10.1234/neurips.2023.1234
+        doi: 
         url:
         journal: ICPR 2026
-        date: 2026-04
+        date: "[*Publication Repository*](https://github.com/liuktc/RefineCAM)"
     experience:
       - company: EPFL
         position: Research Intern (Master's Thesis)
