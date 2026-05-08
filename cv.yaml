@@ -44,7 +44,7 @@ cv:
           - Michele Lombardi
           - Samuele Salti
         summary:
-        doi: 
+        doi:
         url:
         journal: ICPR 2026
         date: "[*Publication Repository*](https://github.com/liuktc/RefineCAM)"
@@ -54,7 +54,7 @@ cv:
         start_date: 2025-10
         end_date: 2026-03
         location: Lausanne, Switzerland
-        summary: "Conducted research on interpretability and vision-language models for my Master's thesis project in MINTS Lab, under the supervision of Prof. Andrea Cavallaro."
+        summary: "Conducted research on interpretability and vision-language models for my Master's thesis project in [MINTS Lab](https://www.epfl.ch/labs/mints/), under the supervision of Prof. Andrea Cavallaro."
         highlights:
           - "Studied the semantical structure of the modality gap inside CLIP's embedding space"
           - "Proposed to use Sparse Autoencoders to better characterize the modality gap"
