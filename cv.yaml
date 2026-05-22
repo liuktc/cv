@@ -45,7 +45,7 @@ cv:
           - Samuele Salti
         summary:
         doi:
-        url:
+        url: https://arxiv.org/abs/2605.14641
         journal: ICPR 2026
         date: "[*Publication Repository*](https://github.com/liuktc/RefineCAM)"
     experience:
@@ -107,6 +107,11 @@ cv:
       - name: "Shelves Product Detection"
         date: "[*Project Repository*](https://github.com/liuktc/opencv-instance-detection)"
         summary: "Instance detection of products on shelves using only classical computer vision techniques with OpenCV"
+    
+    Open Source Contributions:
+      - name: "[`pytorch-grad-cam`](https://github.com/jacobgil/pytorch-grad-cam)"
+        summary: "Contributed to the development of a new CAM method and a new CAM evaluation framework."
+
 
     skills:
       - label: Research Interests
