@@ -109,8 +109,10 @@ cv:
         summary: "Instance detection of products on shelves using only classical computer vision techniques with OpenCV"
     
     Open Source Contributions:
-      - name: "[`pytorch-grad-cam`](https://github.com/jacobgil/pytorch-grad-cam)"
+      - name: "[`pytorch-grad-cam`](https://github.com/jacobgil/pytorch-grad-cam) (⭐ 12.8k stars)"
         summary: "Contributed to the development of a new CAM method and a new CAM evaluation framework."
+      - name: "[`manim-slides`](https://github.com/jeertmans/manim-slides) (⭐ 862 stars)"
+        summary: "Developed a new template to sync manim presentations over the internet in real time."
 
 
     skills:
