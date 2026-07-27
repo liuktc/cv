@@ -36,6 +36,14 @@ cv:
         summary:
         highlights:
           - "Grade: 109/110"
+      - institution: Liceo Scientifico A. Serpieri
+        area: High School Diploma
+        # degree: High School
+        start_date: 2015-09
+        end_date: 2020-07
+        location: Rimini, Italy
+        # highlights:
+        #   - "Grade: 100/100" # Sostituisci con il tuo voto effettivo se diverso
     publications:
       - title: "How to Evaluate and Refine your CAM"
         authors:
@@ -84,48 +92,6 @@ cv:
         location: Rimini, Italy
         summary: "Private computer science and mathematics lessons for undergratuate and high school students"
         highlights:
-
-    achievements:
-      - name: "[1st Place at EPFL LauzHack 2024, BMS Challenge](https://github.com/francesco-gramegna/lauehack2024team)"
-        location: Lausanne, Switzerland
-        summary: Developed an explainable time-series forecasting model using Gaussian Processes and Shapley values to predict pharmaceutical demand, ranking 1st out of 12 teams in the Bristol Myers Squibb 24-hour hackathon challenge.
-
-      - name: "[1st Place at Tablut AI Agent Challenge](https://github.com/liuktc/tablut-player)"
-        location: University of Bologna
-        summary: Designed and developed an AI player for the asymmetric board game Tablut using adversarial search and heuristic evaluation, ranking 1st out of 10 agents.
-
-    Selected Projects:
-      - name: "ICD Multimodal Diagnosis"
-        date: "[*Project Repository*](https://github.com/liuktc/multimodal-icd-diagnosis)"
-        summary: "Implemented a Tree-constrained multimodal ICD-9 generation pipelinefrom chest X-rays and clinical text using custom made VLMs"
-      - name: "Semantic Segmentation of Unexpected Objects on Roads"
-        date: "[*Project Repository*](https://github.com/liuktc/ML4CV_Assignment)"
-        summary: "Implemented an open-world semantic segmentation model using a pre-trained DINOv3 plus metric learning to segment known classes while detecting anomalous regions."
-      - name: "Constraint Programming for Multiple Couriers Optimization"
-        date: "[*Project Repository*](https://github.com/liuktc/couriers-optimization)"
-        summary: "Modelled the Capacitated Vehicle Routing Problem using CP, SAT, SMT, and MILP (MiniZinc, OR-Tools, Z3, Gurobi)"
-      - name: "Shelves Product Detection"
-        date: "[*Project Repository*](https://github.com/liuktc/opencv-instance-detection)"
-        summary: "Instance detection of products on shelves using only classical computer vision techniques with OpenCV"
-    
-    Open Source Contributions:
-      - name: "[`pytorch-grad-cam`](https://github.com/jacobgil/pytorch-grad-cam) (⭐ 12.8k stars)"
-        summary: "Contributed to the development of a new CAM method and a new CAM evaluation framework."
-      - name: "[`manim-slides`](https://github.com/jeertmans/manim-slides) (⭐ 862 stars)"
-        summary: "Developed a new template to sync manim presentations over the internet in real time."
-
-
-    skills:
-      - label: Research Interests
-        details: Explainability, Attribution Mehthods, Vision-Language Models
-      - label: Computer Vision
-        details: Python, OpenCV, PyTorch
-      - label: Machine Learning
-        details: Keras, numpy, pandas, scikit-learn, Matplotlib
-      - label: Web and Mobile Development
-        details: JavaScript, NodeJS, React, React Native, Android Native
-      - label: Programming Languages and Tools
-        details: Java, C, C#, \LaTeX, SQL, MATLAB, Minizinc, Unity 3D, Docker, Blender
 
 design:
   theme: classic
